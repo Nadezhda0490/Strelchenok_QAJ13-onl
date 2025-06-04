@@ -1,0 +1,16 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "Test project for automation testing",
+  "license": "ISC",
+  "author": "Nadezhda",
+  "type": "commonjs",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "mocha tests/unit"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.5.0"
+  }
+}
